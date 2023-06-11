@@ -16,5 +16,27 @@ function eventListeners(e) {
 
 function agregarTweet(e) {
     e.preventDefault();
-    console.log("Agregando Tweets")
+    
+    const tweet = document.querySelector("#tweet").value;
+    if (tweet === "") {
+        mostrarError("El mensaje no puede ir vacio");
+        return;
+    }
+
+}
+
+function mostrarError(error) {
+    //crear el elemento
+    const mensajeError = document.createElement("p");
+    mensajeError.textContent = error;
+    mensajeError.classList.add("error");
+
+    //insertar el elemento
+    const contenido = document.querySelector("#contenido");
+    contenido.appendChild(mensajeError);
+
+    //elimina el alerta despues de un tiempo standar
+    setTimeout(() => {
+        mensajeError.remove();
+    }, 3000);
 }
