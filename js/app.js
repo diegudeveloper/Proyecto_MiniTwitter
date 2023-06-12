@@ -73,11 +73,31 @@ function crearHTML() {
 
     if (tweets.length > 0) {
         tweets.forEach(tweet => {
+            //agregar boton de eliminar
+            const btnEliminar = document.createElement("a");
+            btnEliminar.classList.add("borrar-tweet");
+            btnEliminar.innerText = "X";
+
+            //eliminar tweet
+            btnEliminar.onclick = () => {
+                eliminarTweet(tweet.id);
+            }
+
             const li = document.createElement("li");
             li.innerText = tweet.tweet
+
+            //asignar el boton
+            li.appendChild(btnEliminar);
+
             listaTweeta.appendChild(li);
         })
     }
+    sincronizarStorage();
+}
+
+function eliminarTweet(id) {
+    tweets = tweets.filter (tweet => tweet.id !== id)
+    crearHTML();
 }
 
 function limpiarHTML(){
