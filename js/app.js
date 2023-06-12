@@ -12,7 +12,7 @@ function eventListeners() {
     formulario.addEventListener("submit", agregarTweet);
 
     document.addEventListener("DOMContentLoaded", () => {
-        tweets = JSON.parse(localStorage.getItem("tweets")) || [];
+        tweets = JSON.parse(localStorage.getItem("tweets")) ?? [];
 
         console.log(tweets);
         
