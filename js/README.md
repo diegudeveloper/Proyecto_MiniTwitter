@@ -84,17 +84,19 @@ Si deseas contribuir a este proyecto, puedes seguir estos pasos:
 
 <summary style="font-size: 20px">🗣️ English Version</summary>
 
-![buscadorImg](https://github.com/diegudeveloper/Proyecto_Buscador/assets/62949966/6d4c9d0d-09b8-4ef7-948a-42dabdef83e4)
+![127 0 0 1_5500_index html](https://github.com/diegudeveloper/Proyecto_MiniTwitter/assets/62949966/24214b60-a680-417f-b0f6-0fb031757c6a)
 
-This project is a car search engine that allows you to filter and find vehicles according to different criteria, such as brand, year, price, number of doors, transmission and color.
+This project represents a web page that allows users to write and store tweets using the browser's Local Storage.
 <br><br>
 
 <h2 style="color: orange;">Features</h2>
 
-- Search cars by make, year, price, doors, transmission and color.
-- Display search results in real time.
-- Intuitive and easy to use interface.
-- Up-to-date data of available cars.
+- Posting tweets: Allows users to write and post tweets on the page form.
+- Local Storage: Uses the browser's Local Storage to save tweets, allowing data to persist even after the page is closed.
+- Tweet Deletion: Allows users to remove tweets from the list displayed on the page.
+- Data validation: Performs a validation to ensure that the tweet text field is not empty before adding it.
+- Error messages: Displays error messages in case the text field is empty when trying to add a tweet.
+- Simple user interface: Provides a simple user interface with a form to add tweets and a section to display stored tweets.
 <br><br>
 
 <h2 style="color: orange;">Technologies use</h2>
@@ -144,13 +146,13 @@ If you want to contribute to this project, you can follow these steps:
 <details>
     <summary>🖥 Pc Mode Image</summary>
 
-![buscadorImg](https://github.com/diegudeveloper/Proyecto_Buscador/assets/62949966/6d4c9d0d-09b8-4ef7-948a-42dabdef83e4)
+![127 0 0 1_5500_index html](https://github.com/diegudeveloper/Proyecto_MiniTwitter/assets/62949966/24214b60-a680-417f-b0f6-0fb031757c6a)
 
 </details>
 
 <details>
     <summary>🖥 Mobile Mode Image</summary>
 
-![buscadorMovil](https://github.com/diegudeveloper/Proyecto_Buscador/assets/62949966/8e4de3de-ed63-4d88-bf08-962cfd38757b)
+![127 0 0 1_5500_index html (1)](https://github.com/diegudeveloper/Proyecto_MiniTwitter/assets/62949966/ab44b24e-6a69-448b-a5f6-4e5c6f1517bb)
 
 </details>
